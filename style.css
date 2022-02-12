@@ -21,6 +21,9 @@ img {
 }
 
 /* container img  */
+.slider {
+  position: relative;
+}
 
 .slide-wrapper .item {
   display: none;
@@ -39,12 +42,16 @@ img {
   display: block;
 }
 
+.description {
+  position: absolute;
+  top: 255px;
+  right: 25px;
+  color: azure;
+}
+
 /* stile chevron */
 
 /* slider-right  */
-.sliderRight {
-  position: relative;
-}
 
 /* arrows  */
 .arrows {
