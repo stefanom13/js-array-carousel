@@ -1,5 +1,37 @@
+/* generals */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* section  */
+
+#big-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* container img  */
+
+.slide-wrapper .item {
+  display: none;
+  height: 35vh;
+}
+
+.slide-wrapper .item img {
+  height: 100%;
+  width: 100%;
+}
+/* andremo a visualizzare solo l immagine con la classe active  */
+.slide-wrapper .item.active {
+  display: block;
 }
