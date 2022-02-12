@@ -24,14 +24,45 @@ img {
 
 .slide-wrapper .item {
   display: none;
-  height: 35vh;
+  height: 40vh;
+  width: 50vw;
 }
 
 .slide-wrapper .item img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 /* andremo a visualizzare solo l immagine con la classe active  */
 .slide-wrapper .item.active {
   display: block;
+}
+
+/* stile chevron */
+
+/* slider-right  */
+.sliderRight {
+  position: relative;
+}
+
+/* arrows  */
+.arrows {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 301.44px;
+  z-index: 9999;
+  width: 100%;
+  padding: 2px 2px;
+}
+.cont-img {
+  width: 85px;
+}
+
+.cont-img img {
+  width: 100%;
+  display: block;
+  padding: 3px 0px;
 }
